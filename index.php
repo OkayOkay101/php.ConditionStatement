@@ -31,6 +31,25 @@
         echo "ผลการเรียนของคุณ: " . $result;
         echo "<br>";
         echo "--------------------------------";
+        echo "<br>";
+        echo "คำสั่ง switch<br>";
+        
+        $pet = 'Bird';
+        
+        switch ($pet) {
+            case 'Cat':
+                echo "แมว";
+                break;
+            case 'Dog':
+                echo "หมา";
+                break;
+            case 'Bird':
+                echo "นก";
+                break;
+            default:
+                echo "บ่ขี่เกียจ";
+                break;
+        }
     ?>
 </body>
 </html>
