@@ -13,12 +13,19 @@
         $x = 1;
         while ($x <= 5) {
             echo "รอบที่ $x <br>";
+      
             $x++;
         }
         $i = 1;
         while ($i <= 40) {echo "-"; $i++;}
         echo "<br>";
 
+        echo "<h2>do while loop</h2>";
+        $y = 1;
+        do {
+            echo "do...while รอบที่ $y <br>";
+            $y++;
+        } while ($y <= 5);
     ?>
 </body>
 </html>
