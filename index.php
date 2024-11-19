@@ -22,10 +22,10 @@
         echo "<br>----------------------------------------<br>";
         
         echo "<h2> Short hand if</h2>";
-        $score = 55;
+        $score = 20;
         if($score>=50) echo "สอบผ่าน";
         echo "<br>";
-        // Corrected ternary operator syntax
+
         $result = $score>=50 ? "ได้เกรด p" : "ได้เกรด f";
         echo "<br>";
         echo "ผลการเรียนของคุณ: " . $result;
